@@ -1,18 +1,18 @@
 [connection]
 id=my-network
-uuid=72111c67-4a5d-4d5c-925e-f8ee26efb3c3
+uuid=NUEVO_UUID
 type=802-11-wireless
 
 [802-11-wireless]
 mode=infrastructure
-ssid=MY_SSID
+ssid=NOMRE_DE_TU_WIFI
 # Uncomment below if your SSID is not broadcasted
 #hidden=true
 
 [802-11-wireless-security]
 auth-alg=open
 key-mgmt=wpa-psk
-psk=MY_WLAN_SECRET_KEY
+psk=CLAVE_DE_TU_WIFI
 
 [ipv4]
 method=auto
